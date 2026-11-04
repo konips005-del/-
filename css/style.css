@@ -185,6 +185,8 @@ p { margin: 0 0 1em; }
 .service p { color: var(--muted); font-size: .95rem; margin: 0; }
 a.service { display: flex; flex-direction: column; color: inherit; }
 .service-more { margin-top: auto; padding-top: 22px; font-size: .85rem; font-weight: 500; letter-spacing: .04em; color: var(--gold-dark); }
+.service:nth-child(7):last-child { grid-column: 1 / -1; }
+.service:nth-child(7):last-child p { max-width: 62ch; }
 .service-more span { display: inline-block; transition: transform .3s; }
 .service:hover .service-more span { transform: translateX(4px); }
 
