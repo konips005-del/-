@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://lyart-two-17.vercel.app/sitemap.xml
