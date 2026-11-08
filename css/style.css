@@ -404,3 +404,22 @@ a.service { display: flex; flex-direction: column; color: inherit; }
   }
   .callbar svg { width: 20px; height: 20px; fill: currentColor; }
 }
+
+/* ===== SEO headings: keyword H1 in the eyebrow slot, slogan as display text ===== */
+.hero h1.eyebrow, .page-hero h1.eyebrow {
+  font-family: var(--sans); font-size: .78rem; font-weight: 500; line-height: 1.5;
+  max-width: none; margin-bottom: 1.2em; color: var(--gold);
+}
+.hero .hero-title { font-family: var(--serif); color: #fff; font-size: clamp(2.5rem, 6vw, 4.6rem); font-weight: 300; line-height: 1.2; max-width: 900px; margin: 0 0 .45em; }
+.page-hero .hero-title { font-family: var(--serif); color: #fff; font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 300; line-height: 1.2; max-width: 860px; margin: 0 0 .45em; }
+.hero .hero-title em, .page-hero .hero-title em { font-style: italic; color: #e6d6b6; }
+
+/* ===== Areas served ===== */
+
+.areas .section-head { margin-bottom: 36px; }
+.areas-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.areas-list li { border: 1px solid var(--line); padding: 8px 16px; font-size: .95rem; color: var(--night); }
+.areas-list li:last-child { border-style: dashed; color: var(--muted); }
+
+/* ===== FAQ on service pages ===== */
+.faq-tight { padding-top: 0; }
